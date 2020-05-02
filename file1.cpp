@@ -26,6 +26,11 @@ int func3()
     cout << "You'r in node 3 choose either 4, 5, 8\n";
     int option;
     cin >> option;
+    for(int i=1; i<=5; i++)
+    {
+        cout << i << endl;
+        sleep(500);
+    }
     return option%3+1;
 }
 
@@ -36,11 +41,6 @@ int func4()
     cout << "\n";
     cout << "\n";
     cout << "node 4 done\n";
-    for(int i=1; i<=5; i++)
-    {
-        cout << i << endl;
-        sleep(500);
-    }
     return 0;
 }
 
