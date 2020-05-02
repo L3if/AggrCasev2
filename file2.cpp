@@ -13,6 +13,13 @@ void func5()
 bool func6()
 {
     cout << "This is node 6\nEnter 1 to go to node 7, 0 to pass and go to 8\n";
+    cout << "Introducing new remastered node 6, now with timer\n";
+    for(int i=1; i<=5; i++)
+    {
+        cout << i << endl;
+        cout << endl;
+        sleep(500);
+    }
     int a;
     cin >> a;
     return a;
