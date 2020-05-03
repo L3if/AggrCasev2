@@ -3,7 +3,7 @@
 #include "file1.h"
 #include "file2.h"
 #include "file3.h"
-
+#include "file4.h"
 
 
 using namespace std;
@@ -30,7 +30,11 @@ int main(int argc, char* argv[])
                     func9();
                     continue;
                 }
-                do func10();
+                do
+                {
+                    func15();
+                    func10();
+                }
                 while (func11());
                 func12();
                 break;                
