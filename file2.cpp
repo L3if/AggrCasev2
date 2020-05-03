@@ -35,6 +35,16 @@ bool func8()
     cout << "This is node 8\nEnter 1 to go to node 9, 0 to pass and go to 10\n";
     int a;
     cin >> a;
+    cout << "Going to next block\n";
+    cout << "\n";
+    cout << "\n";
+    cout << "\n";
+    cout << "but after Timer\n";
+    for(int i=1; i<=5; i++)
+    {
+        cout << i << endl;
+        sleep(500);
+    }
     return a;
 }
 
