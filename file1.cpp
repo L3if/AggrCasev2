@@ -39,7 +39,7 @@ int func4()
     for(int i=1; i<=5; i++)
     {
         cout << i << endl;
-        sleep(500);
+        sleep(1);
     }
     return 0;
 }
